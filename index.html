@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hush & Co Finances</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Hush & Co Finances</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="overlay">
+      <div class="hero-content">
+        <h1>Building Wealth with Wisdom</h1>
+        <p>Discreet. Strategic. Trusted Financial Guidance.</p>
+        <a href="#contact" class="cta-button">Schedule Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Expertise</h2>
+    <div class="service-cards">
+      <div class="card">
+        <i class="fas fa-piggy-bank"></i>
+        <h3>Wealth Management</h3>
+        <p>Tailored investment portfolios that grow with your goals.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Financial Planning</h3>
+        <p>Secure your future with step-by-step, strategic guidance.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-file-invoice-dollar"></i>
+        <h3>Tax & Compliance</h3>
+        <p>Tax-efficient strategies and expert compliance advice.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Who We Are</h2>
+    <p>Founded with integrity, Hush & Co Finances provides boutique financial services to high-net-worth individuals and growing enterprises. With over 20 years of experience, we pride ourselves on discretion, strategy, and results-driven advice.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Full Name" required/>
+      <input type="email" name="email" placeholder="Email Address" required/>
+      <textarea name="message" placeholder="How can we help you?" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hush & Co Finances • All Rights Reserved</p>
+  </footer>
+</body>
+</html>
